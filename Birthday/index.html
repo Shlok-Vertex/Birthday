@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Beautiful! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="preloader">
+        <div class="preloader-container">
+          <div class="preloader-heart-wrapper">
+            <div class="preloader-heart"></div>
+            <div class="preloader-sparkle"></div>
+          </div>
+          <div class="preloader-ribbons">
+            <div class="preloader-ribbon preloader-ribbon-left"></div>
+            <div class="preloader-ribbon preloader-ribbon-right"></div>
+          </div>
+          <div class="preloader-progress">
+            <div class="progress-bar"></div>
+          </div>
+          <div class="preloader-text">
+            <span class="letter">P</span>
+            <span class="letter">r</span>
+            <span class="letter">e</span>
+            <span class="letter">p</span>
+            <span class="letter">a</span>
+            <span class="letter">r</span>
+            <span class="letter">i</span>
+            <span class="letter">n</span>
+            <span class="letter">g</span>
+            <span class="letter">&nbsp;</span>
+            <span class="letter">B</span>
+            <span class="letter">i</span>
+            <span class="letter">r</span>
+            <span class="letter">t</span>
+            <span class="letter">h</span>
+            <span class="letter">d</span>
+            <span class="letter">a</span>
+            <span class="letter">y</span>
+            <span class="letter">&nbsp;</span>
+            <span class="letter">M</span>
+            <span class="letter">a</span>
+            <span class="letter">g</span>
+            <span class="letter">i</span>
+            <span class="letter">c</span>
+            <span class="letter">!</span>
+          </div>
+          <div class="preloader-subtext">Loading special moments...</div>
+        </div>
+        <div class="preloader-backdrop"></div>
+      </div>
+
+
+    <canvas id="confetti"></canvas>
+    <div class="music-player">
+        <audio id="birthday-song" loop>
+            <source src="" type="audio/mpeg">
+        </audio>
+        <button id="music-toggle" class="music-btn">
+            <i class="fas fa-music"></i>
+            <span>Play Music</span>
+        </button>
+    </div>
+
+    
+
+    <header class="header">
+        <div class="header-content">
+            <h1 class="animated-text">Happy Birthday, <span class="name">Princess</span>! <span class="cake">🎂</span></h1>
+            <p class="tagline">Wishing you the most magical day filled with love and joy! ✨</p>
+            <div class="birthday-date">October 23</div>
+        </div>
+    </header>
+
+
+
+     
+
+    
+
+
+    <main class="container">
+        <section class="hero-section">
+            <div class="photo-frame">
+                <div class="photo-gallery">
+                    <img src="" alt="Birthday" class="active">
+                    <img src="" alt="Celebration">
+                    <img src="" alt="Flowers">
+                </div>
+                <div class="gallery-controls">
+                    <button class="gallery-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="gallery-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="countdown-section">
+            <h2>Countdown to Your Special Day</h2>
+            <div class="timer">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>Days</small>
+                </div>
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>Hours</small>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>Minutes</small>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>Seconds</small>
+                </div>
+            </div>
+        </section>
+
+        <section class="wishes-section">
+            <div class="wish-card">
+                <i class="fas fa-heart wish-icon"></i>
+                <h3>Special Message</h3>
+                <p class="typing-effect">To the most amazing girl in the world, may your birthday be as beautiful, special, and wonderful as you are! Every moment with you is a treasure, and today we celebrate the incredible person you are. Wishing you endless happiness, success, and love today and always! ❤️</p>
+            </div>
+        </section>
+
+        <section class="memory-wall">
+            <h2>Precious Memories</h2>
+            <div class="memory-slider-container">
+              <div class="memory-slider">
+                <div class="memory-slide" style="--delay: 0.1s">
+                  <div class="memory-image" style="background-image: url('')"></div>
+                  <div class="memory-caption">
+                    <h3>Happy Times</h3>
+                    <p>Our beautiful moments together</p>
+                  </div>
+                </div>
+                <div class="memory-slide" style="--delay: 0.2s">
+                  <div class="memory-image" style="background-image: url('')"></div>
+                  <div class="memory-caption">
+                    <h3>Beautiful Smile</h3>
+                    <p>That smile brightens my day</p>
+                  </div>
+                </div>
+                <div class="memory-slide" style="--delay: 0.3s">
+                  <div class="memory-image" style="background-image: url('')"></div>
+                  <div class="memory-caption">
+                    <h3>With Friends</h3>
+                    <p>Fun times with our squad</p>
+                  </div>
+                </div>
+                <div class="memory-slide" style="--delay: 0.4s">
+                  <div class="memory-image" style="background-image: url('')"></div>
+                  <div class="memory-caption">
+                    <h3>Adventures</h3>
+                    <p>Our wonderful journeys</p>
+                  </div>
+                </div>
+                <div class="memory-slide" style="--delay: 0.5s">
+                  <div class="memory-image" style="background-image: url('')"></div>
+                  <div class="memory-caption">
+                    <h3>Celebrations</h3>
+                    <p>Special occasions together</p>
+                  </div>
+                </div>
+                <div class="memory-slide" style="--delay: 0.6s">
+                  <div class="memory-image" style="background-image: url('')"></div>
+                  <div class="memory-caption">
+                    <h3>Love & Laughter</h3>
+                    <p>Our beautiful connection</p>
+                  </div>
+                </div>
+              </div>
+              <button class="slider-nav slider-prev"><i class="fas fa-chevron-left"></i></button>
+              <button class="slider-nav slider-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+          </section>
+
+          <!-- Add before </body> -->
+        <div class="gift-container">
+     <div class="gift-wrapper">
+      <div class="gift-box">
+        <div class="lid"></div>
+        <div class="box">
+          <div class="ribbon-horizontal"></div>
+          <div class="ribbon-vertical"></div>
+          <div class="surprise-content hidden">
+            <img src="" alt="Surprise!">
+            <p class="surprise-text">You're Amazing! 💖</p>
+          </div>
+        </div>
+      </div>
+      <div class="particles"></div>
+    </div>
+    <button class="open-gift-btn btn">Open Your Gift!</button>
+  </div>
+  
+  <audio id="openSound" src="https://assets.mixkit.co/active_storage/sfx/2993/2993-preview.mp3"></audio>
+  <audio id="sparkleSound" src="https://assets.mixkit.co/active_storage/sfx/2575/2575-preview.mp3"></audio>
+
+
+
+          
+
+        <section class="interactive-section">
+            <h2>Birthday Wishes</h2>
+            <div class="wish-form">
+                <textarea id="wish-input" placeholder="Write your birthday wish here..."></textarea>
+                <button id="send-wish" class="btn">Send Wish <i class="fas fa-paper-plane"></i></button>
+            </div>
+            <div class="wish-display" id="wish-display">
+                <!-- Wishes will appear here -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="hearts-container"></div>
+        <p>Made with <span class="heart-beat">❤️</span> by Someone Who Loves You | Wishing you the happiest of birthdays! 🎈</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/Shlok__23_sri/" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+
+    <!-- Birthday Surprise Button -->
+    <div class="surprise-container">
+        <button class="surprise-btn">Click for a Surprise! 🎁</button>
+        <div class="surprise-content hidden">
+        <img src="" alt="Birthday Surprise">
+        <p>You've won a virtual hug! 🤗</p>
+        </div>
+    </div>
+
+
+  
+    <!-- Floating Balloons -->
+    <div class="balloons-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
