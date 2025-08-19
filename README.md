@@ -1,2 +1,2 @@
-# Birthday 🎂.  
+# Birthday 🎂. 
 Its birthday time. 
